@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Full-stack developer portfolio for Chandrashu, featuring clean web apps, backend systems, and deployment-ready projects.">
   <title>Chandrashu | Full-Stack Developer</title>
-  <meta name="theme-color" content="#09090b">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2309090b'/%3E%3Cpath d='M40.7 19.6c-2.3-1.5-4.9-2.3-7.8-2.3-8.3 0-14.1 6.2-14.1 14.7s5.8 14.7 14.1 14.7c3.2 0 6-.9 8.4-2.8v-7.5c-2.2 2.5-4.9 3.8-8 3.8-4.8 0-8-3.3-8-8.2s3.2-8.2 8-8.2c3 0 5.6 1.2 7.4 3.4l4.6-4.5c-1.1-1.2-2.6-2.3-4.6-3.1z' fill='%23f8fafc'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#f8fafc">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230f766e'/%3E%3Cpath d='M40.4 20.4c-2.2-1.5-4.8-2.2-7.5-2.2-8 0-13.7 5.9-13.7 13.8s5.7 13.8 13.7 13.8c3.1 0 5.8-.9 8.1-2.6v-6.9c-2.1 2.3-4.7 3.5-7.7 3.5-4.6 0-7.7-3.1-7.7-7.8s3.1-7.8 7.7-7.8c2.9 0 5.4 1.1 7.1 3.2l4.4-4.2c-1.1-1.1-2.5-2.1-4.4-2.8z' fill='%23ffffff'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header class="site-header" data-header>
     <a class="brand" href="#home" aria-label="Chandrashu home">
@@ -33,37 +35,31 @@
   <main>
     <section class="hero" id="home" aria-labelledby="hero-title">
       <div class="hero-media" aria-hidden="true"></div>
-      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+
       <div class="hero-content reveal">
         <p class="eyebrow">Full-stack developer</p>
-        <h1 id="hero-title">Clean web apps from UI to deployment.</h1>
+        <h1 id="hero-title">Clean web apps from interface to deployment.</h1>
         <p class="hero-copy">
-          I build responsive interfaces, Express backends, MongoDB flows, authentication, uploads, and production-ready project setup.
+          I build responsive interfaces, Express backends, MongoDB flows, authentication, uploads, and production-ready project setup with a practical, user-first approach.
         </p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#work">View projects</a>
-          <a class="btn btn-ghost" href="https://github.com/chandrashu" target="_blank" rel="noreferrer">Open GitHub</a>
+          <a class="btn btn-primary" href="#work">View Projects</a>
+          <a class="btn btn-secondary" href="https://github.com/chandrashu" target="_blank" rel="noreferrer">Open GitHub</a>
+        </div>
+        <div class="hero-highlights" aria-label="Developer highlights">
+          <span>6+ web builds</span>
+          <span>MERN stack</span>
+          <span>Deploy-ready flow</span>
         </div>
       </div>
-      <aside class="hero-panel reveal" aria-label="Developer highlights">
-        <div>
-          <span class="metric-value">6+</span>
-          <span class="metric-label">web project builds</span>
-        </div>
-        <div>
-          <span class="metric-value">MERN</span>
-          <span class="metric-label">core stack</span>
-        </div>
-        <div>
-          <span class="metric-value">Ship</span>
-          <span class="metric-label">deploy-ready flow</span>
-        </div>
-      </aside>
     </section>
 
     <section class="intro section-shell reveal" aria-labelledby="intro-title">
-      <div class="section-kicker">Portfolio</div>
-      <h2 id="intro-title">A focused developer profile for useful product work.</h2>
+      <div>
+        <p class="section-kicker">Portfolio</p>
+        <h2 id="intro-title">A focused developer profile for practical product work.</h2>
+      </div>
       <p>
         I turn rough ideas into complete web experiences with clear structure, clean screens, working data, user accounts, media handling, and hosting setup.
       </p>
@@ -72,7 +68,7 @@
     <section class="featured section-shell" id="work" aria-labelledby="featured-title">
       <div class="section-heading reveal">
         <div>
-          <div class="section-kicker">Featured project</div>
+          <p class="section-kicker">Featured project</p>
           <h2 id="featured-title">WanderHome</h2>
         </div>
         <a class="text-link" href="https://github.com/chandrashu/wanderhome" target="_blank" rel="noreferrer">
@@ -82,11 +78,7 @@
 
       <article class="featured-project reveal">
         <div class="project-visual">
-          <img
-            src="assets/wanderhome-preview.jpg"
-            alt="WanderHome project preview"
-            loading="lazy"
-          >
+          <img src="assets/wanderhome-preview.jpg" alt="WanderHome project preview" loading="lazy">
         </div>
         <div class="project-details">
           <p class="eyebrow">Full-stack travel platform</p>
@@ -102,19 +94,15 @@
             <span>Render</span>
           </div>
           <div class="project-actions">
-            <a class="btn btn-primary" href="https://github.com/chandrashu/wanderhome" target="_blank" rel="noreferrer">View code</a>
-            <a class="btn btn-ghost" href="#contact">Contact</a>
+            <a class="btn btn-primary" href="https://github.com/chandrashu/wanderhome" target="_blank" rel="noreferrer">View Code</a>
+            <a class="btn btn-secondary" href="#contact">Contact</a>
           </div>
         </div>
       </article>
 
       <div class="project-grid" aria-label="Project highlights">
         <article class="project-card reveal">
-          <img
-            src="assets/dashboard-preview.jpg"
-            alt="Dashboard interface visual"
-            loading="lazy"
-          >
+          <img src="assets/dashboard-preview.jpg" alt="Dashboard interface visual" loading="lazy">
           <div class="project-card-body">
             <span>Dashboard UI</span>
             <h3>Admin dashboards</h3>
@@ -123,24 +111,16 @@
         </article>
 
         <article class="project-card reveal">
-          <img
-            src="assets/interface-preview.jpg"
-            alt="Responsive interface visual"
-            loading="lazy"
-          >
+          <img src="assets/interface-preview.jpg" alt="Responsive interface visual" loading="lazy">
           <div class="project-card-body">
             <span>Product polish</span>
             <h3>Responsive pages</h3>
-            <p>Clean landing sections, mobile-first layouts, and strong interaction details.</p>
+            <p>Landing sections, mobile-first layouts, and interaction details that feel easy.</p>
           </div>
         </article>
 
         <article class="project-card reveal">
-          <img
-            src="assets/code-preview.jpg"
-            alt="Backend code system visual"
-            loading="lazy"
-          >
+          <img src="assets/code-preview.jpg" alt="Backend code system visual" loading="lazy">
           <div class="project-card-body">
             <span>Backend systems</span>
             <h3>APIs and data flows</h3>
@@ -153,8 +133,8 @@
     <section class="skills section-shell" id="skills" aria-labelledby="skills-title">
       <div class="section-heading reveal">
         <div>
-          <div class="section-kicker">Skills</div>
-          <h2 id="skills-title">A practical stack for full projects.</h2>
+          <p class="section-kicker">Skills</p>
+          <h2 id="skills-title">A practical stack for complete projects.</h2>
         </div>
       </div>
 
@@ -180,7 +160,7 @@
     <section class="process section-shell" id="process" aria-labelledby="process-title">
       <div class="section-heading reveal">
         <div>
-          <div class="section-kicker">Process</div>
+          <p class="section-kicker">Process</p>
           <h2 id="process-title">How I take a project from idea to release.</h2>
         </div>
       </div>
@@ -213,7 +193,7 @@
         </p>
         <div class="contact-actions">
           <a class="btn btn-primary" href="https://github.com/chandrashu" target="_blank" rel="noreferrer">Open GitHub</a>
-          <a class="btn btn-ghost" href="https://github.com/chandrashu/wanderhome" target="_blank" rel="noreferrer">WanderHome link</a>
+          <a class="btn btn-secondary" href="https://github.com/chandrashu/wanderhome" target="_blank" rel="noreferrer">WanderHome Link</a>
         </div>
       </div>
     </section>
@@ -226,4 +206,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
